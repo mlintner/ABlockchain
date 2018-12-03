@@ -20,3 +20,5 @@ add_library(blocklib
         sha256.h
         SHA256Hasher.cpp
         SHA256Hasher.hpp)
+
+target_include_directories (blocklib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

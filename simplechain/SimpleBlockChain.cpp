@@ -2,9 +2,9 @@
 // Created by Admin on 11/19/2018.
 //
 
-#include "SHA256Hasher.hpp"
-#include "POWMiner.hpp"
-#include "BlockChain.hpp"
+#include "../blocklib/SHA256Hasher.hpp"
+#include "../blocklib/POWMiner.hpp"
+#include "../blocklib/BlockChain.hpp"
 using namespace std;
 
 int main()
